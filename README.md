@@ -2,13 +2,10 @@
 An OpenGL + GLFW based image viewer with **smooth spring-based panning** and an optional **bird’s-eye mini-map** for navigation.
 Supports drag-based navigation, zooming, and inertia for a natural viewing experience.
 
----
-
 ## Preview
 
 ![Screenshot](screenshot.png)
 
----
 
 ## Features
 
@@ -19,7 +16,6 @@ Supports drag-based navigation, zooming, and inertia for a natural viewing exper
 * **OpenGL accelerated rendering** for high performance.
 * Works with **any image format** supported by [stb\_image](https://github.com/nothings/stb).
 
----
 
 ## Dependencies
 
@@ -29,7 +25,6 @@ This project uses:
 * [GLAD](https://glad.dav1d.de/) – OpenGL loader.
 * [stb\_image.h](https://github.com/nothings/stb) – Image loading.
 
----
 
 ## Build Instructions
 
@@ -65,7 +60,6 @@ This project uses:
    ./glimviewer image_file
    ```
 
----
 
 ## Controls
 
@@ -75,7 +69,6 @@ This project uses:
 | Zoom in/out (smooth)          | Mouse wheel / `Ctrl` + `+` / `Ctrl` + `-` |
 | Navigate from bird’s-eye view | Click + drag inside mini-map              |
 
----
 
 ## Project Structure
 
@@ -88,11 +81,9 @@ image-viewer-spring/
 ├── main.cpp
 ```
 
----
 
 ## License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
----
 
